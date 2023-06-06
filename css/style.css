@@ -1,0 +1,177 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: monospace;
+    font-variant: small-caps;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 10px dotted olivedrab;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:fit-content;
+    
+}
+
+
+h1{
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 1px;
+    font-weight: bolder;
+    
+}
+
+button{
+    height: 30px;
+    width: 175px;
+    border: 5px ridge olivedrab;
+    cursor: pointer;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    display: flex;    
+    border-radius: 98px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-variant: small-caps;
+    background-color: white
+    
+    
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 8px;
+    font-variant: small-caps;
+    font-size: 40px;
+    padding: 0;
+    grid-area: unlock;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: -250px;
+
+}
+
+#code-display{
+    width: 200px;
+    font-size: 55px;
+    text-align: center;
+    justify-content: center;
+    border: 6px ridge olivedrab;
+    margin: 10px auto;
+    padding: 0;
+    
+    
+
+}
+
+#guess-box{
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+h3{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1px;
+
+}
+
+#past-guesses{
+    list-style-type: none;
+    border: 4px olivedrab ridge;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    padding-left: 1px;
+    padding-right: 1px;
+    width:300px;
+
+    
+}
+
+#guess{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: auto;
+}
+
+.p{
+    margin:10px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    position:fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width:fit-content;
+}
+
+#instructions-header{
+    font-size: 40px;
+    font-variant: small-caps;
+    margin-bottom: 3px;
+    color: olivedrab
+    
+}
+
+#instruction-screen{
+
+    font-size: 20px;
+    font-variant: normal;
+}
+
+#answer-reveal{
+    width: 200px;
+    font-size: 55px;
+    text-align: center;
+    justify-content: center;
+    border: 6px ridge olivedrab;
+    margin: 10px auto;
+    padding: 0;
+}
+
+
+
+.hidden{
+    display:none;
+}

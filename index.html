@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Code Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header id="start-menu">
+        <h1 id="game-header">SECRET C0DE GAME</h1>
+    
+        <div id="start-menu-btns">
+        
+            <button id="instructions">Top-Secret Instructions</button>
+            <button id="start">Start</button>
+    
+        </div>
+    </header>
+
+    <section id="instruction-screen">
+        <p id="instructions-header">Your Mission: Crack the Secret Code.</p>
+        <div id="instruction-text">
+            <p>
+            Someone has sent a secret code that needs to be cracked. Maybe it's the code to enter a secret room full of secret international government secrets. Maybe it's something super dangerous, like an explosive that needs disarmed. Maybe your Postmates order is here and the guy needs to door code to get buzzed in. I don't know.
+            </p>
+            <p>The point is: it's up to you to crack the secret code by guessing five unique digits each turn. For each digit you guess in its correct place, you will receive a "*". 
+            For each digit you guess that is in the secret code but is in the wrong place, you will receive a "!". For each digit you guess that is nowhere in the secret code, you will receive a "0". 
+        </p><p>When you're ready, head to the main menu using the button below.
+        </p>
+        </div>
+        <button id="back-to-main">Main Menu</button>
+
+
+    </section>
+
+    <main id="game-screen">
+        
+        <h2>Unlock the Secret Code:</h2>
+        <p id="code-display">00000</p>
+        
+        <div id="guess-box">
+            <input type="text" id="user-input" placeholder="Enter your guess">
+        </div>
+
+                <h3>Your Past Guesses:</h3>
+                <ul id="past-guesses">
+                </ul>
+
+            </div>
+
+    </main>
+
+    <section id = "game-over">
+        <h2>Congrats, you cracked the code!</h2>
+        <p id="answer-reveal"></p>
+        <button id ="play-again">Play again?</button>
+
+
+
+    </section>
+
+
+    <script src ="./script/app.js"></script>
+</body>
+</html>
